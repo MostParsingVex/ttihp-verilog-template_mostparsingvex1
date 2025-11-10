@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A 50 MHz clock is prescaled down to 1 MHz. This prescaled clock is then further prescaled around 1 kHz and ANDed to the 1 MHz clock, depending on the state of the input. 
 
 ## How to test
 
-Explain how to use your project
+One hot in the inputs and watch the outputs wiggle.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Inputs might be connected to buttons. Outputs might be observed on a logic analyzer or oscilloscope.
