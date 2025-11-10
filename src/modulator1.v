@@ -23,4 +23,4 @@ module modulator1( clk, rst, data_in, carrier_in, data_out );
   assign intermediate_data_out = !(| baseband_mixed) & carrier_in;
 
   assign data_out = intermediate_data_out ? 8'hff : 8'h00;
-endmodule;
+endmodule

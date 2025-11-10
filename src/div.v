@@ -19,4 +19,4 @@ module div( clkin, rst, clkout, divisor );
     end
 
   assign clkout = state[ 31 ];
-endmodule;
+endmodule

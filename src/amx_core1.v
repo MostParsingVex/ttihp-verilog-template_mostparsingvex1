@@ -12,4 +12,4 @@ module amx_core1( clk, rst, data_in, data_out );
   div U0( .clkin( clk ), .rst( rst ), .clkout( carrier ), .divisor( divisor ) );
 
   modulator1 U1(.clk(clk),.rst(rst),.data_in(data_in),.carrier_in(carrier),.data_out(data_out));
-endmodule;
+endmodule
